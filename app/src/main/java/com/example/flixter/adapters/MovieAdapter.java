@@ -44,7 +44,7 @@ public class MovieAdapter extends  RecyclerView.Adapter<MovieAdapter.ViewHolder>
         return new ViewHolder(movieView);
     }
 
-    //pupulating data into the item through holder
+    //populating data into the item through holder
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Log.d("MovieAdapter", "onBindViewHolder" + position);
