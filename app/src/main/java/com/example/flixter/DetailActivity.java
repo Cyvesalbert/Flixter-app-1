@@ -31,6 +31,7 @@ public class DetailActivity extends YouTubeBaseActivity {
     TextView itvOverview;
     RatingBar ratingBar;
     YouTubePlayerView youtubePlayerView;
+    Movies movie = new Movies();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +43,7 @@ public class DetailActivity extends YouTubeBaseActivity {
         ratingBar = findViewById(R.id.ratingBar);
         youtubePlayerView = findViewById(R.id.player);
 
-        Movies movie = Parcels.unwrap(getIntent().getParcelableExtra("movie"));
+        movie = Parcels.unwrap(getIntent().getParcelableExtra("movie"));
         itvTitle.setText(movie.getTitle());
         itvOverview.setText(movie.getOverview());
         ratingBar.setRating((float)movie.getRating());
@@ -77,7 +78,13 @@ public class DetailActivity extends YouTubeBaseActivity {
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
                 Log.d("DetailActivity", "onInitializationSuccess");
                 //do any work to cue video, play, etc.
-                youTubePlayer.cueVideo(youtubeKey);
+                if (movie.getRating() >= 6.0) {
+                    Log.d("DetailActivity", "onInitializationSuccess");
+                    youTubePlayer.loadVideo(youtubeKey);
+
+                } else {
+                    youTubePlayer.cueVideo(youtubeKey);
+                }
             }
 
             @Override
