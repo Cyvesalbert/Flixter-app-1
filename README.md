@@ -52,8 +52,8 @@ Describe any challenges encountered while building the app.
 
 ### App Walkthough GIF
 
-<img src="https://imgur.com/6GJvLlR" width=250><br>
-<img src="https://imgur.com/6GJvLlR" width=250><br>
+<img src="https://github.com/Cyvesalbert/Flixter-app-1/blob/main/landscape.gif" width=250><br>
+<img src="https://github.com/Cyvesalbert/Flixter-app-1/blob/main/portrait.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
