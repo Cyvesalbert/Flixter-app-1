@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/yvesa/AndroidStudioProjects/Flixter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/yvesa/AndroidStudioProjects/Flixter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/yvesa/AndroidStudioProjects/Flixter/app/src/main/res/layout-land/item_movie.xml" value="0.2384428223844282" />
         <entry key="..\:/Users/yvesa/AndroidStudioProjects/Flixter/app/src/main/res/layout/activity_detail.xml" value="0.33" />
         <entry key="..\:/Users/yvesa/AndroidStudioProjects/Flixter/app/src/main/res/layout/activity_main.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/yvesa/AndroidStudioProjects/Flixter/app/src/main/res/layout/item_movie.xml" value="0.18" />
+        <entry key="..\:/Users/yvesa/AndroidStudioProjects/Flixter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/yvesa/AndroidStudioProjects/Flixter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1645" />
       </map>
     </option>
   </component>
